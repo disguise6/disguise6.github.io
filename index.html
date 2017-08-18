@@ -6,7 +6,7 @@
  <script type="text/javascript">
 	    var submit=document.getElementsByName("submit");
 	    submit.addEventListener("touchstart",submitForm);
-	    function submitForm(){
+	    function submitForm(event){
 			submit.innerHTML="触摸点个数为"+event.touches.length;
 		}
 	</script>
