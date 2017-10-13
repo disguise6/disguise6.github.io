@@ -68,7 +68,7 @@ div{
 }
 #ui .love:last-child .love_word {
   color: red;
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-shadow: 0 0 10px red;
 }
 #ui .love_word {
